@@ -65,7 +65,7 @@ function App(){
   
 
   return <>
-    {/* <section className="pricing py-5">
+    <section className="pricing py-5">
     <div className="container">
     <div className="row">
       {plans.map((e,i)=><Card data={e} key={i}/>)}
@@ -74,7 +74,7 @@ function App(){
       <Card data={plans[2]}/>  
  </div> 
 </div>  
-</section> */}
+</section>
   
    
 </>  
