@@ -5,7 +5,7 @@ function Card(props){
     <div className="col-lg-4">
         <div className="card mb-5 mb-lg-0">
           <div className="card-body">
-            <h5 className="card-title text-muted text-uppercase text-center">{props.data.Plan}</h5>
+            <h5 className="card-title text-muted text-uppercase text-center"><i>{props.data.Plan}</i></h5>
             <h6 className="card-price text-center">${props.data.price}<span className="period">/month</span></h6>
             <hr/>
             <ul className="fa-ul">
