@@ -69,9 +69,7 @@ function App(){
     <div className="container">
     <div className="row">
       {plans.map((e,i)=><Card data={e} key={i}/>)}
-      <Card data={plans[0]}/>
-      <Card data={plans[1]}/>
-      <Card data={plans[2]}/>  
+        
  </div> 
 </div>  
 </section>
